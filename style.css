@@ -1,0 +1,69 @@
+body {
+    font-family: Rubik, Arial, Helvetica, "Noto Sans Devanagari", "Noto Sans CJK SC Thin", "Noto Sans SC", "Noto Sans Hebrew", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 40px 80px 40px 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_img img {
+    max-width: 125px;
+    border-radius: 100px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+.section-title {
+    border-bottom: 2px solid #0078d4;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.contact-info,
+.skills {
+    margin: 10px 0;
+}
+
+.contact-info p,
+.skills p {
+    margin: 5px 0;
+}
+
+.skills span {
+    display: inline-block;
+    background: #0078d4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 5px 0 0;
+}
+
+.experience,
+.education {
+    margin: 20px 0;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+}
