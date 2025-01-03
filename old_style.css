@@ -1,9 +1,9 @@
 body {
-    font-family: Rubik, Arial, Helvetica, "Noto Sans Devanagari", "Noto Sans CJK SC Thin", "Noto Sans SC", "Noto Sans Hebrew", sans-serif;
+    font-family: Arial, Helvetica, "Noto Sans Devanagari", "Noto Sans CJK SC Thin", "Noto Sans SC", "Noto Sans Hebrew", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #fff;
 }
 
 .container {
@@ -11,7 +11,7 @@ body {
     margin: 20px auto;
     background: #fff;
     padding: 40px 80px 40px 80px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
 }
 
 header {
@@ -32,41 +32,20 @@ header {
 h1,
 h2,
 p {
-    color: #333;
+    color: #000;
     margin: 0.5vw 0.25vw;
 }
 
 .blue_text {
-    color: #03406f;
-    font-weight: bold;
-}
-
-.small_text {
-    font-size: 1vw;
-}
-
-.small_medium_text {
-    font-size: 1.5vw;
+    color: #000;
 }
 
 .medium_text {
     font-size: 2vw;
 }
 
-.medium_large_text {
-    font-size: 2.5vw;
-}
-
-.large_text {
-    font-size: 3vw;
-}
-
-.extra_large_text {
-    font-size: 4vw;
-}
-
 .section-title {
-    border-bottom: 2px solid #0078d4;
+    border-bottom: 2px solid #000;
     margin-bottom: 10px;
     padding-bottom: 5px;
 }
@@ -83,7 +62,7 @@ p {
 
 .skills span {
     display: inline-block;
-    background: #0078d4;
+    background: #000;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -99,19 +78,19 @@ p {
 }
 
 .job-title {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .date {
     font-style: italic;
-    color: #777;
+    color: #000;
 }
 
 #export-btn {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #0078d4;
+    background-color: #000;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -120,7 +99,7 @@ p {
 }
 
 #export-btn:hover {
-    background-color: #005bb5;
+    background-color: #000;
 }
 
 @media print {

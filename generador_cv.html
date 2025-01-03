@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Generador de Curriculum</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Generador de Curriculum</h2>
+    <form id="curriculum-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" placeholder="Escribe tu nombre" required />
+
+      <label for="title">Título Profesional:</label>
+      <input type="text" id="title" placeholder="Escribe tu título" required />
+
+      <label for="contact">Contacto:</label>
+      <input type="text" id="contact" placeholder="Teléfono, correo, etc." required />
+
+      <label for="summary">Resumen:</label>
+      <textarea id="summary" placeholder="Escribe un resumen sobre ti"></textarea>
+
+      <label for="experience">Experiencia:</label>
+      <textarea id="experience" placeholder="Describe tu experiencia laboral"></textarea>
+
+      <label for="education">Educación:</label>
+      <textarea id="education" placeholder="Describe tu formación académica"></textarea>
+
+      <label for="skills">Habilidades:</label>
+      <textarea id="skills" placeholder="Lista tus habilidades"></textarea>
+
+      <button type="button" id="generate-btn">Generar Curriculum</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
