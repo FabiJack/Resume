@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Curriculum Alba Teresa Rivero Sangronis</title>
+  </head>
+  <body>
+    <button id="export-btn" onclick="exportToPDF()">Exportar a PDF</button>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="info_header">
+          <h1>Alba Teresa Rivero Sangronis</h1>
+          <p class="blue_text small_medium_text">Enfermera Universitaria</p>
+          <div class="contact-info">
+            <p>📞 +569 3452 1842 | ✉️ albarivero041770@gmail.com</p>
+            <p>
+              🔗 www.linkedin.com/in/enfermera-alba-rivero | 🌍 La Florida,
+              Santiago, Chile
+            </p>
+          </div>
+        </div>
+        <div class="profile_img">
+          <img src="img/Alba.jpg" alt="profile picture" />
+        </div>
+      </header>
+
+      <!-- Resumen -->
+      <section>
+        <h2 class="section-title">Resumen</h2>
+        <p>
+          Enfermera con 16 años de experiencia en el área de la salud con amplio conocimiento en
+          procedimientos, seguridad y cuidados. Mi actitud y habilidades han
+          sido fundamentales para el éxito en esta área.
+        </p>
+      </section>
+
+      <!-- Educación -->
+      <section class="education">
+        <h2 class="section-title">Educación</h2>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Revalida título de enfermería</b>
+          <p></p>
+          <div>Universidad de Chile</div>
+          <p class="date">2023</p>
+        </div>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Licenciada en enfermería</b>
+          <p></p>
+          <div> Universidad Centro Occidental Lisandro Alvarado</div>
+          <p class="date">2007</p>
+        </div>
+
+      </section>
+
+      <!-- Cursos y Diplomados -->
+      <section class="certifications">
+        <h2 class="section-title">Cursos</h2>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Curso IAAS (120 Hrs)</b>
+          <p></p>
+          <div>Hospital San Juan de Dios</div> 
+          <p class="date">2024</p>
+        </div>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Curso teórico básico de ECMO</b>
+          <p></p>
+          <div>Hospital San Juan de Dios</div>
+          <p class="date">2024</p>
+        </div>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Ventilación mecánica básica</b>
+          <p></p>
+          <div>Salva una vida SpA.</div> 
+          <p class="date">2024</p>
+        </div>
+
+        <div class="job-place-date-container">
+          <b class="job-title">Soporte vital básico BLS</b> 
+          <p></p>
+          <div>CERP Clínica Dávila</div>
+          <p class="date">2023</p>
+        </div>
+
+      <!-- Experiencia -->
+
+      <section class="experience">
+
+        <h2 class="section-title">Experiencia</h2>
+
+        <div class="space-20">
+          <div class="job-place-date-container">
+            <h1><b>Hospital San Juan de Dios</b></h1>
+            <p></p>
+            <div>Asistencia en emergencias cardíacas, Monitoreo de pacientes, Administración de medicamentos</div>
+            <p class="date">abr 2021 - Presente</p>
+          </div>
+        </div>
+
+        <div class="space-20">
+          <div class="job-place-date-container">
+            <h1><b>Clínica Las Acacias</b></h1>
+            <p></p>
+            <div>Monitoreo y documentación de cirugías, Coordinación de suministros y tareas administrativas</div>
+            <p class="date">nov 2023 – ene 2024</p>
+          </div>
+        </div>
+
+        <div class="space-20">
+          <div class="job-place-date-container">
+            <h1><b>Clínica Asmor</b></h1>
+            <p></p>
+            <div>Organización de suministros, Ingreso de pacientes, pausa quirúrgica y cuidados postoperatorios</div>
+            <p class="date">sep 2022 - oct 2023</p>
+          </div>
+        </div>
+
+        <!-- <div class="space-20">
+          <div class="job-place-date-container">
+            <b class="job-title">Clínica Alonso de Cordova</b>
+            <p></p>
+            <div>Ingreso y clasificación de suministros, Esterilización de instrumental quirúrgico</div>
+            <p class="date">diciembre 2021 - agosto 2022</p>
+          </div>
+        </div> -->
+
+      </section>
+
+      <!-- Habilidades -->
+      <section class="skills">
+        <h2 class="section-title">Habilidades</h2>
+        <p>
+          <span>Trabajo en equipo</span>
+          <span>Gestión de estrés</span>
+          <span>Comunicación efectiva</span>
+          <span>Toma de decisiones clínicas</span>
+        </p>
+      </section>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="functions.js"></script>
+  </body>
+</html>

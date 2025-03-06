@@ -57,7 +57,7 @@ function exportToPDF() {
             }
         }
 
-        doc.save('Fabian_Jaque_Villalobos.pdf');
+        doc.save('Currículum.pdf');
     }).catch((error) => {
         console.error('Error generating PDF:', error);
     });

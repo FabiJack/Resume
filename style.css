@@ -6,6 +6,15 @@ body {
     background-color: #f4f4f9;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-margin {
+    margin: 0;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
@@ -14,9 +23,67 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-header {
-    display: flex;
+.job-date-container {
+    display: grid;
+    grid-template-columns: auto auto;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.job-place-date-container {
+    display: grid;
+    grid-template-columns: 1.3fr 0.125fr 1.25fr 1fr;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+}
+
+.job-place-date-container b {
+    text-align: left;
+}
+
+.job-place-date-container div {
+    text-align: left;
+}
+
+.job-place-date-container p {
+    text-align: right;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+}
+
+.space-10 {
+    margin: 10px 0;
+}
+
+.space-20 {
+    margin: 20px 0;
+}
+
+.left-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .profile_img {
@@ -29,9 +96,18 @@ header {
     border-radius: 25px;
 }
 
+.big_img {
+    align-items: center;
+    /* Alinea verticalmente */
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+}
+
 h1,
 h2,
-p {
+h3,
+h4,
+p, b {
     color: #333;
     margin: 0.5vw 0.25vw;
 }
@@ -71,6 +147,10 @@ p {
     padding-bottom: 5px;
 }
 
+.under-line {
+    border-bottom: 1px solid #0078d46b;
+}
+
 .contact-info,
 .skills {
     margin: 10px 0;
@@ -96,15 +176,6 @@ p {
 .skills,
 .languages {
     margin: 20px 0;
-}
-
-.job-title {
-    font-weight: bold;
-}
-
-.date {
-    font-style: italic;
-    color: #777;
 }
 
 #export-btn {
